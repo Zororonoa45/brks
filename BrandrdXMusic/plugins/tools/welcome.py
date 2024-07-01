@@ -91,7 +91,6 @@ async def greet_group(_, member: ChatMemberUpdated):
 ๏ 𝗡𝗔𝗠𝗘 ➠ {user.mention}
 ๏ 𝗜𝗗 ➠ {user.id}
 ๏ 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 ➠ @{user.username}
-๏ 𝐌𝐀𝐃𝐄 𝐁𝐘 ➠ @lost4uzoro
 ➖➖➖➖➖➖➖➖➖➖➖
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Arlecchino_Rebot?startgroup=true")]])
